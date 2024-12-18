@@ -1,0 +1,576 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    max-width: 100%;
+    box-sizing: border-box;
+    
+   
+}
+
+
+
+
+header{
+    background-color: #00abff;
+    
+    
+}
+
+h3 {
+    text-align: center;
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
+    margin: 0px 0px;
+    color: white;
+  }
+
+  
+
+ 
+
+
+
+
+.hdr-img1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 10%;
+    
+
+}
+
+.hdr-img2 {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 80%;
+    margin: 0 10%;
+    
+
+}
+.hdr-img1 img{
+    border-radius: 50%;
+    padding: 10px;
+    border: solid green 2px;
+    width: 150px;
+    height: 150px;
+    background-color: #0292da;
+}
+.hdr-img2 img{
+    border-radius: 50%;
+    padding: 10px;
+    
+    width: 150px;
+    height: 150px;
+    background-color: #0292da;
+    
+}
+
+.test {
+    padding: 10px;
+    border: 2px gold dotted;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.test2 {
+    padding: 10px;
+    border: 2px gold dotted;
+    border-radius: 50%;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #00abff;
+        
+    
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks {
+    margin-top: 20px;
+}
+
+.navlinks a {
+    margin: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+.nav img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+
+}
+
+.sign {
+    margin-top: 25px;
+}
+
+.sign a {
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    border-radius: 15px;
+    background-color: #FFFFFF1A;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    padding: 10px 10px;
+}
+
+.sign a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+
+
+.sign a.create {
+    color: white;
+    background: rgb(72, 72, 219);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.body {
+    background-color: #00abff;
+    width: auto;
+    padding-top: 150px;
+    
+
+}
+
+.body h3 {
+    text-align: center;
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin: 0px 0px;
+    color: rgb(255, 233, 111);
+}
+
+.body p {
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    width: 500px;
+}
+
+.para {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.para img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+ .tokenomics p {
+    max-width: 80%;
+ }
+.token-flex {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    border: solid 1px gold;
+    border-radius: 35px;
+    padding: 40px;
+}
+
+.flex {
+    margin: auto;
+    width: 20%;
+    padding: 0 20px;
+}
+
+.roadmap {
+    padding-top: 150px;
+    
+}
+
+.phase-flex {
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+    max-width: 80%;
+}
+
+.phase-flex img {
+    width: 100%;
+    height: auto;
+}
+
+.roadmap h4 {
+    text-align: center;
+    color: white;
+}
+.phases {
+    background-color: #0381c0;
+    width: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px 20px;
+
+}
+
+
+
+.available-on {
+    padding-top: 150px;
+}
+.available {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.available img{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 20px;
+    border: gold 2px solid;
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.coming-soon h4{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+svg {
+   
+    width: 200px;
+    height: 100px;
+    margin: 0 60px;
+}
+
+.my-svgs {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 100px;
+}
+
+
+
+
+/* Portrait Mode - iPhone 12 Pro */
+@media only screen and (max-width: 680px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        max-width: 100%;
+        box-sizing: border-box;
+        background-color: #00abff;
+        
+       
+    }
+
+
+    .hdr-img1 img, .hdr-img2 img{
+        border-radius: 50%;
+        padding: 10px;
+        border: solid gold 2px;
+        width: 50px;
+        height: 50px;
+        background-color: #0292da;
+        max-width: 80%;
+    }
+
+    .test , .test2 {
+        border: none;
+    }
+    .hdr-img1 {
+        display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 80%;
+    margin: 0 10%;
+    
+        
+    }
+
+    .hdr-img2 {
+        display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 10%;
+    
+    }
+      .test2, .test {
+      
+        max-width: 90%;
+      }
+
+      header {
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: auto;
+        width: 100%;
+      }
+
+      header h3 {
+        width: 100%;
+        text-align: center;
+       
+      }
+
+      .about {
+        width: 100%;
+      }
+      .about h3, .about p {
+        font-size: small;
+        width: 100%;
+      }
+
+      
+
+      .para {
+        max-width: 90%;
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .para img {
+        display: block;
+        border-radius: 50%;
+        width: 40%;
+        height: 120px;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    .para p {
+        text-align: center;
+        font-size: 7px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+.why-based h3, .how-to-buy h3, .roadmap h3 {
+    line-height: 0;
+    font-size: small;
+}
+      
+    .token-text {
+        text-align: center;
+        max-width: 100%;
+        font-size: 7px;
+        visibility: hidden;
+    }
+ .tokenomics p {
+    
+    text-align: center;
+    font-size: 7px;
+ }
+    .tokenomics h3 {
+        font-size: small;
+        padding: 5px;
+    }
+    .navbar {
+         width: 70%;
+         max-width: 80%;
+            display: none;
+            justify-content: space-between;
+            padding: 10px;
+            font-size: larger;
+            font-weight: bold;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #00abff;
+                
+            
+    
+    }
+    
+    .roadmap .phase-flex {
+        max-width: 100%;
+    }
+    .tokenomics {
+        max-width: 100%;
+    }
+    .roadmap {
+        padding-top: 150px;
+        
+    }
+
+    .roadmap h4 {
+        font-size: 7px;
+    }
+
+    .token-flex {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 15%;
+        width: 50%;
+        border: solid 1px gold;
+        border-radius: 35px;
+        padding: 40px;
+    }
+    
+    .flex {
+        margin: auto;
+        width: 20%;
+        padding: 0 20px;
+    }
+
+    .flex h2 {
+        font-size: small;
+    }
+    .flex p {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .phases {
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 15%;
+        width: 50%;
+        border-radius: 35px;
+        padding: 40px;
+    
+    }
+
+    .phases p {
+        font-size: 10px;
+    }
+    .phase-flex {
+        display: block;
+        font-size: small;
+        padding: 0 20px ;
+    }
+    
+    .phase-flex img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .roadmap h4 {
+        width: 70%;
+        text-align: center;
+        color: white;
+        margin-left: 30px;
+    }
+
+    .roadmap p {
+        max-width: 100%;
+    }
+    
+    .available {
+        display: block;
+        margin: auto;
+        width: 80%;
+        
+    }
+
+ 
+
+    .available-on h3 {
+        font-size: smaller;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .available-on {
+        padding-top: 150px;
+        
+        
+    }
+        
+    
+    .available img{
+        width: 50%;
+        height: 40px;
+        margin: 20px;
+        border-radius: 10px;
+        border: gold 2px solid;
+        margin-top: 10px;
+        margin-left: 75px;
+        
+    }
+
+    .coming-soon {
+        visibility: hidden;
+       
+    }
+    .contacts h3 {
+        font-size: small;
+    }
+    .contacts p {
+        max-width: 100%;
+        font-size: 7px;
+    }
+    
+svg {
+   
+    width: 30%;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.my-svgs {
+    max-width: 100%;
+    display: flex;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+}
